@@ -155,7 +155,7 @@ bool __fastcall MoveResponseToInventory_Hooked(LPVOID a1, int a2) {
 
 fpMoveResponseOrig(a1, a2);
 
-UnlockEverything();
+UnlockEverything();TRUE
 
 MH_RemoveHook(pMoveResponseToInventory);
 
